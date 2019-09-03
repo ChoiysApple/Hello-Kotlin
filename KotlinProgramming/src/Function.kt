@@ -24,7 +24,7 @@ fun main(){
     printSum(1, 2)
 
     add("Choi", "Google")
-    add("Doe")
+    add("Jake")
     add(mail = "Google")
 
     printAll(1, 3, 5, 1, 2)
