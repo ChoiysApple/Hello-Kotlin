@@ -25,4 +25,11 @@ fun main(){
     println()
     for (i in 'a'..'d')
         print(i)
+
+
+    println()
+    repeat(5) {
+        print('e')
+    }
+
 }
