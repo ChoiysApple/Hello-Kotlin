@@ -69,7 +69,9 @@ fun main(){
     println(any.javaClass)
 
 
-
-
+    // Throw Exception
+    val s : String? = null
+    val len = s!!.length
+    print(len)
 
 }

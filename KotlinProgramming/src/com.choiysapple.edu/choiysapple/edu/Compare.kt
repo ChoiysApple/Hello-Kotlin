@@ -4,7 +4,9 @@ val numberOfFish = 50
 val numberOfPlants = 23
 
 fun main() {
-    if (numberOfFish > numberOfPlants) {
-        print("Good Ratio")
-    }
+    val fish = 50
+    if (fish in 1..100)
+        print("fish")
+
+
 }
