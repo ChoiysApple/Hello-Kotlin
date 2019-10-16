@@ -20,6 +20,28 @@ fun printAll (vararg counts: Int){
     }
 }
 
+//fun fishFood (day : String) : String{
+//    when (day){
+//        "Monday" -> return "flakes"
+//        "Tuesday" -> return "pellets"
+//        "Wednesday" -> return "redworms"
+//        "Thursday" -> return "granules"
+//        "Friday" -> return "flaplankton"
+//    }
+//    return "wow" }
+
+fun fishFood (day : String) : String{
+    return when (day){
+        "Monday" ->  "flakes"
+        "Tuesday" ->  "pellets"
+        "Wednesday" -> "redworms"
+        "Thursday" -> "granules"
+        "Friday" -> "flaplankton"
+        else -> "nothing"
+    }
+}
+
+
 fun main(){
     printSum(1, 2)
 
@@ -28,4 +50,6 @@ fun main(){
     add(mail = "Google")
 
     printAll(1, 3, 5, 1, 2)
+
+    print(fishFood("Monday"))
 }
