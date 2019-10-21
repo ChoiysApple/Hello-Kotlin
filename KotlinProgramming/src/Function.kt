@@ -41,6 +41,9 @@ fun fishFood (day : String) : String{
     }
 }
 
+fun swim (speed: String = "Fast") : String{
+    return speed
+}
 
 fun main(){
     printSum(1, 2)
@@ -51,5 +54,8 @@ fun main(){
 
     printAll(1, 3, 5, 1, 2)
 
-    print(fishFood("Monday"))
+    println(fishFood("Monday"))
+
+    println(swim())
+    println(swim("Slow"))
 }
