@@ -58,4 +58,15 @@ fun main(){
 
     println(swim())
     println(swim("Slow"))
+
+    val temperature = 59
+    val message = "The water temperature is ${ if (temperature > 50) "too warm" else "OK" }."
+    println(message)
+
+    val isHot = if (temperature > 50) true else false
+    println(isHot)
+
+    val decorations = listOf ("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
+    println( decorations.filter {it[0] == 'p'})
+
 }
