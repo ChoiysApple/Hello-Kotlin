@@ -66,7 +66,15 @@ fun main(){
     val isHot = if (temperature > 50) true else false
     println(isHot)
 
+    // filter
     val decorations = listOf ("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
-    println( decorations.filter {it[0] == 'p'})
+    val eager = decorations.filter {it[0] == 'p'}
+    println(eager)
+
+    val multi: (Int, Int) -> Int = {x: Int, y: Int ->
+        "x * y"
+        x * y
+    }
+    print(multi(2, 3))
 
 }

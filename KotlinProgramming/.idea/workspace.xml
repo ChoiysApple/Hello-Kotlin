@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b1dc86f-c2aa-484b-baab-cbdc6a2dfe09" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DiceRoller/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiceRoller/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiceRoller/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiceRoller/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiceRoller/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiceRoller/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinProgramming/FunctionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinProgramming/FunctionKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Function.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Function.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
