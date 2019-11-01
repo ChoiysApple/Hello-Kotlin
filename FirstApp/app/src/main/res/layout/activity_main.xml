@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/countText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "0"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/TextSize"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonsLayout"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/toastBtn"
+            android:layout_gravity="center_vertical"
+            android:text="Toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/buttonMargin"/>
+        <Button
+            android:id="@+id/countBtn"
+            android:layout_gravity="center_vertical"
+            android:text="count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/buttonMargin"/>
+        <Button
+            android:text="random"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/randomBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/buttonMargin"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
